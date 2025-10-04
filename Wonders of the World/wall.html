@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Great Wall of China - Wonder World</title>
+        <link rel="stylesheet" href="style.css">
+    <style>
+            .World-images {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content: center;
+            }
+
+            .image-card {
+                display: inline-block;
+                width: 300px;  
+                height: 200px; 
+                overflow: hidden; 
+                border: 3px solid #afeeee;
+                border-radius: 15px;
+                box-shadow: 0 0 15px #afeeee;
+                transition: transform 0.3s, box-shadow 0.3s;
+            }
+
+            .image-card img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+                transition: transform 0.3s ease;
+            }
+
+            .image-card:hover {
+                transform: scale(1.05); 
+                box-shadow: 0 0 25px #afeeee;
+            }
+
+            .image-card:hover img {
+                transform: scale(1.1); 
+            }
+
+    </style>
+    </head>
+    <body>
+
+        <header class="navbar">
+        <h1>Wonder World</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="wall.html">Great Wall of China &nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </nav>
+        </header>
+
+        <div style="width: 150px; margin-top: 150px;" class="sidebar left">
+        <h3>Key Highlights</h3>
+            <details><summary>Location</summary><p>The Great Wall stretches across northern China, spanning deserts, mountains, and grasslands.</p></details>
+            <details><summary>Construction</summary><p>It was built over several dynasties, with the most famous sections constructed during the Ming Dynasty (1368–1644).</p></details>
+            <details><summary>Purpose</summary><p>Originally built to protect Chinese states from invasions and raids, it also served as a symbol of strength and unification.</p></details>
+        </div>
+
+        <div class="sidebar right">
+        <h3 style="text-align: center;">Great Wall Facts</h3>
+            <p>The Great Wall of China is the longest wall in the world, stretching over 21,000 km.</p>
+            <p>It is made of stone, brick, tamped earth, wood, and other materials depending on the region.</p>
+            <p>It is a UNESCO World Heritage Site and one of the New Seven Wonders of the World.</p>
+        </div>
+
+        <main>
+        <section class="wonder-intro">
+        <h2>Great Wall of China 🏯</h2>
+            <p>The Great Wall of China is an ancient series of walls and fortifications built to protect China from invasions. It winds through mountains, deserts, and plains, showcasing incredible engineering and strategic planning.</p>
+            <p><mark style="background-color: lightgoldenrodyellow; font-family: cursive; font-size: larger;">"The Great Wall of China stands as a monumental symbol of perseverance, defense, and the ingenuity of ancient Chinese civilization."</mark></p>
+        </section>
+
+        <section class="wonder-gallery">
+        <h3>Gallery 🏯</h3>
+            <div class="wonder-images">
+            <div style="height: 400px; width: 600px;" class="image-card"><img src="wall01.jpg" alt="Great Wall View 1"></div>
+            <div style="height: 400px; width: 600px;" class="image-card"><img src="wall02.jpg" alt="Great Wall on Mountain"></div>
+            <div style="height: 400px; width: 600px;" class="image-card"><img src="wall03.jpg" alt="Great Wall Watchtower"></div>
+            <div style="height: 400px; width: 600px;" class="image-card"><img src="wall04.jpg" alt="Great Wall Panorama"></div>
+            <div style="height: 400px; width: 600px;" class="image-card"><img src="wall00.jpg" alt="Great Wall Panorama"></div>
+            <div style="height: 400px; width: 600px;" class="image-card"><img src="wall05.jpg" alt="Great Wall Sunset View"></div>
+        </div>
+        </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div><h3>About</h3><p>Wonder World shares information about the world’s most iconic wonders, their history, and cultural significance.</p></div>
+                <div><h3>Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="wall.html">Great Wall of China</a></li>
+            </ul>
+            </div>
+                <div><h3>Follow Us</h3><p>Instagram | Twitter | Facebook</p></div>
+            </div>
+                <p class="footer-bottom">© 2025 Wonder World | Made with ❤</p>
+        </footer>
+
+    </body>
+</html>

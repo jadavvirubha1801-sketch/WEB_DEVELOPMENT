@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Christ the Redeemer - Wonder World</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .World-images {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content: center;
+            }
+
+            .image-card {
+                display: inline-block;
+                width: 300px;  
+                height: 200px; 
+                overflow: hidden; 
+                border: 3px solid #afeeee;
+                border-radius: 15px;
+                box-shadow: 0 0 15px #afeeee;
+                transition: transform 0.3s, box-shadow 0.3s;
+            }
+
+            .image-card img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+                transition: transform 0.3s ease;
+            }
+
+            .image-card:hover {
+                transform: scale(1.05); 
+                box-shadow: 0 0 25px #afeeee;
+            }
+
+            .image-card:hover img {
+                transform: scale(1.1); 
+            }
+         </style>
+    </head>
+    <body>
+
+        <header class="navbar">
+        <h1>Wonder World</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="christ.html">Christ the Redeemer &nbsp;&nbsp;&nbsp;&nbsp;</a>
+            /nav>
+        </header>
+
+        <div style="width: 150px; margin-top: 150px;" class="sidebar left">
+        <h3>Key Highlights</h3>
+            <details><summary>Height</summary><p>The statue stands 30 meters tall, with arms spanning 28 meters.</p></details>
+            <details><summary>Location</summary><p>It is located at the peak of Mount Corcovado in Rio de Janeiro, Brazil.</p></details>
+            <details><summary>Symbolism</summary><p>Represents peace, Christianity, and a warm welcome to visitors.</p></details>
+        </div>
+
+        <div class="sidebar right">
+        <h3>Christ the Redeemer Facts</h3>
+            <p>Christ the Redeemer is one of the most recognized landmarks in the world, located in Rio de Janeiro, Brazil.</p>
+            <p>The statue was completed in 1931 and is made of reinforced concrete and soapstone.</p>
+            <p>It was declared one of the New Seven Wonders of the World in 2007.</p>
+        </div>
+
+        <main>
+            <section class="wonder-intro">
+            <h2>Christ the Redeemer ✝️</h2>
+                <p>Christ the Redeemer is an iconic statue of Jesus Christ, overlooking the city of Rio de Janeiro from Mount Corcovado. It has become a symbol of Christianity and a cultural icon of Brazil.</p>
+                <p><mark style="background-color: lightgoldenrodyellow; font-family: cursive; font-size: larger;">"Christ the Redeemer stands as a global symbol of peace, hope, and faith."</mark></p>
+            </section>
+
+            <section class="wonder-gallery">
+            <h3 style="text-align: center;">Gallery ✝️</h3>
+                <div class="wonder-images">
+                <div style="height: 400px; width: 600px;" class="image-card"><img src="christ01.jpg" alt="Christ the Redeemer Front View"></div>
+                <div style="height: 400px; width: 600px;" class="image-card"><img src="christ02.jpg" alt="Christ the Redeemer Side View"></div>
+                <div style="height: 400px; width: 600px;" class="image-card"><img src="christ03.jpg" alt="Christ the Redeemer overlooking Rio"></div>
+                <div style="height: 400px; width: 600px;" class="image-card"><img src="Christ00.jpg" alt="Christ the Redeemer overlooking Rio"></div>
+                <div style="height: 400px; width: 600px;" class="image-card"><img src="Christ04.jpg" alt="Christ the Redeemer Side View"></div>
+                <div style="height: 400px; width: 600px;" class="image-card"><img src="Christ05.jpg" alt="Christ the Redeemer Side View"></div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div><h3>About</h3><p>Wonder World shares information about the world’s most iconic wonders, their history, and cultural significance.</p></div>
+                <div><h3>Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="christ.html">Christ the Redeemer</a></li>
+            </ul>
+            </div>
+                <div><h3>Follow Us</h3><p>Instagram | Twitter | Facebook</p></div>
+            </div>
+                <p class="footer-bottom">© 2025 Wonder World | Made with ❤</p>
+        </footer>
+
+    </body>
+</html>

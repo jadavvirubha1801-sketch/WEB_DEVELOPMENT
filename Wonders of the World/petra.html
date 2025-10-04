@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Petra - Wonder World</title>
+<link rel="stylesheet" href="style.css">
+<style>
+    .World-images {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content: center;
+            }
+
+            .image-card {
+                display: inline-block;
+                width: 300px;  
+                height: 200px; 
+                overflow: hidden; 
+                border: 3px solid #afeeee;
+                border-radius: 15px;
+                box-shadow: 0 0 15px #afeeee;
+                transition: transform 0.3s, box-shadow 0.3s;
+            }
+
+            .image-card img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+                transition: transform 0.3s ease;
+            }
+
+            .image-card:hover {
+                transform: scale(1.05); 
+                box-shadow: 0 0 25px #afeeee;
+            }
+
+            .image-card:hover img {
+                transform: scale(1.1); 
+            }
+    </style>
+    </head>
+    <body>
+
+        <header class="navbar">
+        <h1>Wonder World</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="petra.html">Petra &nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </nav>
+        </header>
+
+        <div style="width: 150px; margin-top: 150px;" class="sidebar left">
+        <h3>Key Highlights</h3>
+            <details><summary>Location</summary><p>Petra is located in southern Jordan, carved into rose-red cliffs of the Arabian desert.</p></details>
+            <details><summary>Construction</summary><p>The city was built around the 5th century BC by the Nabataeans.</p></details>
+            <details><summary>Significance</summary><p>Petra was a major trading hub and is famous for its rock-cut architecture and water conduit system.</p></details>
+        </div>
+
+        <div class="sidebar right">
+        <h3>Petra Facts</h3>
+            <p>Petra is an archaeological city renowned for its rock-cut architecture and water management system.</p>
+            <p>It is often referred to as the “Rose City” due to the color of the stone from which it is carved.</p>
+            <p>It was declared one of the New Seven Wonders of the World in 2007.</p>
+        </div>
+
+        <main>
+            <section class="wonder-intro">
+            <h2>Petra 🏜️</h2>
+                <p>Petra is an ancient Nabatean city located in southern Jordan. Famous for its elaborate tombs, temples, and water management system carved into sandstone cliffs, it is one of the most iconic archaeological sites in the Middle East.</p>
+                <p><mark style="background-color: lightgoldenrodyellow; font-family: cursive; font-size: larger;">"Petra stands as a monumental testament to the ingenuity, art, and culture of the Nabatean civilization."</mark></p>
+            </section>
+
+            <section class="wonder-gallery">
+            <h3 style="text-align: center;">Gallery 🏜️</h3>
+                <div class="wonder-images">
+                <div style="height: 400px; width: 600px;" class="image-card"><img src="petra01.jpg" alt="Petra Treasury"></div>
+                <div style="height: 400px; width: 600px;" class="image-card"><img src="petra02.jpg" alt="Petra Monastery"></div>
+                <div style="height: 400px; width: 600px;" class="image-card"><img src="petra03.jpg" alt="Petra Siq Entrance"></div>
+                <div style="height: 400px; width: 600px;" class="image-card"><img src="petra00.jpg" alt="Petra Siq Entrance"></div>
+                <div style="height: 400px; width: 600px;" class="image-card"><img src="petra04.jpg" alt="Petra Rock-Cut Structures"></div>
+                <div style="height: 400px; width: 600px;" class="image-card"><img src="petra05.jpg" alt="Petra View from Above"></div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+        <div class="footer-container">
+        <div><h3>About</h3><p>Wonder World shares information about the world’s most iconic wonders, their history, and cultural significance.</p></div>
+        <div><h3>Links</h3>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="petra.html">Petra</a></li>
+        </ul>
+        </div>
+        <div><h3>Follow Us</h3><p>Instagram | Twitter | Facebook</p></div>
+        </div>
+        <p class="footer-bottom">© 2025 Wonder World | Made with ❤</p>
+        </footer>
+
+    </body>
+</html>
